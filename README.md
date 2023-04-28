@@ -22,7 +22,7 @@
 
 - 💻 &nbsp; C | Python | Java
 
-- 🌐 &nbsp; Vue.js | CSS | HTML
+- 🌐 &nbsp; Vue.js | CSS | HTML | Nuxt3
 
 - 🔧 &nbsp; Git | Markdown
 

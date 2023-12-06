@@ -1,7 +1,5 @@
 ### Hey, I'm thibaut :)
 
-<img align='right' src="includes/welcome.png" width="500">
-
 <h3> •💻 About Me </h3>
 
 

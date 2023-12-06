@@ -83,6 +83,6 @@
 
 <p align="center">
 
-<a href="https://www.linkedin.com/in/thibaut-tavernier-b20841260"><img alt="LinkedIn" src="includes/Linkedin.png"></a>        <a href="tavernierthibaut34@gmail.com"><img alt="Email" src="includes/Mail.png"></a>
+<a href="https://www.linkedin.com/in/thibaut-tavernier-b20841260"><img alt="LinkedIn" src="includes/Linkedin.png"></a>" "<a href="tavernierthibaut34@gmail.com"><img alt="Email" src="includes/Mail.png"></a>
 
 </p>

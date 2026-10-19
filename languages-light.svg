@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="292" viewBox="0 0 800 292">
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+  .title { font-size: 15px; font-weight: 700; fill: #3d2f25; }
+  .sub { font-size: 11px; fill: #8a7563; }
+  .shine { animation: shine 7s ease-in-out 2.5s infinite; transform: translateX(-260px); }
+  @keyframes shine { 0% { transform: translateX(-260px); } 40%, 100% { transform: translateX(860px); } }
+  .fade { opacity: 0; animation: fade .6s ease-out forwards; }
+  @keyframes fade { to { opacity: 1; } }
+  .grow { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1s cubic-bezier(.2,.8,.2,1) forwards; }
+  @keyframes grow { to { transform: scaleX(1); } }
+</style>
+<defs>
+  <linearGradient id="shineGrad" x1="0" x2="1">
+    <stop offset="0" stop-color="#d9a679" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#d9a679" stop-opacity="0.10"/>
+    <stop offset="1" stop-color="#d9a679" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="cardClip"><rect x="1" y="1" width="798" height="290" rx="12"/></clipPath>
+</defs>
+<rect x=".5" y=".5" width="799" height="291" rx="12" fill="#fffaf5" stroke="#ead9c6"/>
+<text x="24" y="34" class="title">Most used languages</text>
+<text x="776" y="34" class="sub" text-anchor="end">by code size across every repo I contribute to</text>
+<clipPath id="barClip"><rect x="24" y="52" width="752" height="10" rx="5"/></clipPath>
+<rect x="24" y="52" width="752" height="10" rx="5" fill="#f1e4d6"/>
+<g clip-path="url(#barClip)">
+<rect x="24.00" y="52" width="266.71" height="10" fill="#3178c6" class="grow" style="animation-delay: 0.20s"/>
+<rect x="290.21" y="52" width="187.57" height="10" fill="#f34b7d" class="grow" style="animation-delay: 0.32s"/>
+<rect x="477.28" y="52" width="80.85" height="10" fill="#00B4AB" class="grow" style="animation-delay: 0.44s"/>
+<rect x="557.63" y="52" width="65.02" height="10" fill="#555555" class="grow" style="animation-delay: 0.56s"/>
+<rect x="622.16" y="52" width="63.23" height="10" fill="#8a7563" class="grow" style="animation-delay: 0.68s"/>
+<rect x="684.89" y="52" width="22.67" height="10" fill="#663399" class="grow" style="animation-delay: 0.80s"/>
+<rect x="707.06" y="52" width="21.07" height="10" fill="#e34c26" class="grow" style="animation-delay: 0.92s"/>
+<rect x="727.63" y="52" width="18.78" height="10" fill="#3572A5" class="grow" style="animation-delay: 1.04s"/>
+<rect x="745.90" y="52" width="30.60" height="10" fill="#8a7563" class="grow" style="animation-delay: 1.16s"/>
+</g>
+<g class="fade" style="animation-delay: 0.50s">
+<circle cx="29.0" cy="88" r="5" fill="#3178c6"/>
+<text x="42.0" y="92" font-size="13" font-weight="600" fill="#3d2f25">TypeScript</text>
+<text x="384.0" y="92" font-size="12" fill="#8a7563" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">35.4%</text>
+</g>
+<rect x="24.0" y="101" width="360.0" height="4" rx="2" fill="#f1e4d6"/>
+<rect x="24.0" y="101" width="360.0" height="4" rx="2" fill="#3178c6" class="grow" style="animation-delay: 0.70s"/>
+<g class="fade" style="animation-delay: 0.60s">
+<circle cx="421.0" cy="88" r="5" fill="#f34b7d"/>
+<text x="434.0" y="92" font-size="13" font-weight="600" fill="#3d2f25">C++</text>
+<text x="776.0" y="92" font-size="12" fill="#8a7563" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">24.9%</text>
+</g>
+<rect x="416.0" y="101" width="360.0" height="4" rx="2" fill="#f1e4d6"/>
+<rect x="416.0" y="101" width="253.0" height="4" rx="2" fill="#f34b7d" class="grow" style="animation-delay: 0.80s"/>
+<g class="fade" style="animation-delay: 0.70s">
+<circle cx="29.0" cy="128" r="5" fill="#00B4AB"/>
+<text x="42.0" y="132" font-size="13" font-weight="600" fill="#3d2f25">Dart</text>
+<text x="384.0" y="132" font-size="12" fill="#8a7563" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">10.7%</text>
+</g>
+<rect x="24.0" y="141" width="360.0" height="4" rx="2" fill="#f1e4d6"/>
+<rect x="24.0" y="141" width="108.7" height="4" rx="2" fill="#00B4AB" class="grow" style="animation-delay: 0.90s"/>
+<g class="fade" style="animation-delay: 0.80s">
+<circle cx="421.0" cy="128" r="5" fill="#555555"/>
+<text x="434.0" y="132" font-size="13" font-weight="600" fill="#3d2f25">C</text>
+<text x="776.0" y="132" font-size="12" fill="#8a7563" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">8.6%</text>
+</g>
+<rect x="416.0" y="141" width="360.0" height="4" rx="2" fill="#f1e4d6"/>
+<rect x="416.0" y="141" width="87.3" height="4" rx="2" fill="#555555" class="grow" style="animation-delay: 1.00s"/>
+<g class="fade" style="animation-delay: 0.90s">
+<circle cx="29.0" cy="168" r="5" fill="#8a7563"/>
+<text x="42.0" y="172" font-size="13" font-weight="600" fill="#3d2f25">JavaScript</text>
+<text x="384.0" y="172" font-size="12" fill="#8a7563" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">8.3%</text>
+</g>
+<rect x="24.0" y="181" width="360.0" height="4" rx="2" fill="#f1e4d6"/>
+<rect x="24.0" y="181" width="84.8" height="4" rx="2" fill="#8a7563" class="grow" style="animation-delay: 1.10s"/>
+<g class="fade" style="animation-delay: 1.00s">
+<circle cx="421.0" cy="168" r="5" fill="#663399"/>
+<text x="434.0" y="172" font-size="13" font-weight="600" fill="#3d2f25">CSS</text>
+<text x="776.0" y="172" font-size="12" fill="#8a7563" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">2.9%</text>
+</g>
+<rect x="416.0" y="181" width="360.0" height="4" rx="2" fill="#f1e4d6"/>
+<rect x="416.0" y="181" width="30.0" height="4" rx="2" fill="#663399" class="grow" style="animation-delay: 1.20s"/>
+<g class="fade" style="animation-delay: 1.10s">
+<circle cx="29.0" cy="208" r="5" fill="#e34c26"/>
+<text x="42.0" y="212" font-size="13" font-weight="600" fill="#3d2f25">HTML</text>
+<text x="384.0" y="212" font-size="12" fill="#8a7563" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">2.7%</text>
+</g>
+<rect x="24.0" y="221" width="360.0" height="4" rx="2" fill="#f1e4d6"/>
+<rect x="24.0" y="221" width="27.8" height="4" rx="2" fill="#e34c26" class="grow" style="animation-delay: 1.30s"/>
+<g class="fade" style="animation-delay: 1.20s">
+<circle cx="421.0" cy="208" r="5" fill="#3572A5"/>
+<text x="434.0" y="212" font-size="13" font-weight="600" fill="#3d2f25">Python</text>
+<text x="776.0" y="212" font-size="12" fill="#8a7563" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">2.4%</text>
+</g>
+<rect x="416.0" y="221" width="360.0" height="4" rx="2" fill="#f1e4d6"/>
+<rect x="416.0" y="221" width="24.7" height="4" rx="2" fill="#3572A5" class="grow" style="animation-delay: 1.40s"/>
+<g class="fade" style="animation-delay: 1.30s">
+<circle cx="29.0" cy="248" r="5" fill="#8a7563"/>
+<text x="42.0" y="252" font-size="13" font-weight="600" fill="#3d2f25">Other</text>
+<text x="384.0" y="252" font-size="12" fill="#8a7563" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">4.0%</text>
+</g>
+<rect x="24.0" y="261" width="360.0" height="4" rx="2" fill="#f1e4d6"/>
+<rect x="24.0" y="261" width="40.7" height="4" rx="2" fill="#8a7563" class="grow" style="animation-delay: 1.50s"/>
+<g clip-path="url(#cardClip)"><rect class="shine" x="0" y="0" width="200" height="292" fill="url(#shineGrad)"/></g>
+</svg>

@@ -29,7 +29,7 @@
 <rect x="290.21" y="52" width="187.57" height="10" fill="#f34b7d" class="grow" style="animation-delay: 0.32s"/>
 <rect x="477.28" y="52" width="80.85" height="10" fill="#00B4AB" class="grow" style="animation-delay: 0.44s"/>
 <rect x="557.63" y="52" width="65.02" height="10" fill="#555555" class="grow" style="animation-delay: 0.56s"/>
-<rect x="622.16" y="52" width="63.23" height="10" fill="#8a7563" class="grow" style="animation-delay: 0.68s"/>
+<rect x="622.16" y="52" width="63.23" height="10" fill="#f1e05a" class="grow" style="animation-delay: 0.68s"/>
 <rect x="684.89" y="52" width="22.67" height="10" fill="#663399" class="grow" style="animation-delay: 0.80s"/>
 <rect x="707.06" y="52" width="21.07" height="10" fill="#e34c26" class="grow" style="animation-delay: 0.92s"/>
 <rect x="727.63" y="52" width="18.78" height="10" fill="#3572A5" class="grow" style="animation-delay: 1.04s"/>
@@ -64,12 +64,12 @@
 <rect x="416.0" y="141" width="360.0" height="4" rx="2" fill="#f1e4d6"/>
 <rect x="416.0" y="141" width="87.3" height="4" rx="2" fill="#555555" class="grow" style="animation-delay: 1.00s"/>
 <g class="fade" style="animation-delay: 0.90s">
-<circle cx="29.0" cy="168" r="5" fill="#8a7563"/>
+<circle cx="29.0" cy="168" r="5" fill="#f1e05a"/>
 <text x="42.0" y="172" font-size="13" font-weight="600" fill="#3d2f25">JavaScript</text>
 <text x="384.0" y="172" font-size="12" fill="#8a7563" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">8.3%</text>
 </g>
 <rect x="24.0" y="181" width="360.0" height="4" rx="2" fill="#f1e4d6"/>
-<rect x="24.0" y="181" width="84.8" height="4" rx="2" fill="#8a7563" class="grow" style="animation-delay: 1.10s"/>
+<rect x="24.0" y="181" width="84.8" height="4" rx="2" fill="#f1e05a" class="grow" style="animation-delay: 1.10s"/>
 <g class="fade" style="animation-delay: 1.00s">
 <circle cx="421.0" cy="168" r="5" fill="#663399"/>
 <text x="434.0" y="172" font-size="13" font-weight="600" fill="#3d2f25">CSS</text>

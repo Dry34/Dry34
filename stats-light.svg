@@ -92,7 +92,7 @@
 <text x="131.5" y="794.0">8</text>
 <text x="131.5" y="833.0">9</text>
 </g>
-<g style="transform: translateY(-429.0px); animation: roll 2.08s cubic-bezier(.15,.85,.25,1) 0.20s backwards">
+<g style="transform: translateY(-468.0px); animation: roll 2.08s cubic-bezier(.15,.85,.25,1) 0.20s backwards">
 <text x="150.1" y="92.0">0</text>
 <text x="150.1" y="131.0">1</text>
 <text x="150.1" y="170.0">2</text>
@@ -275,7 +275,7 @@
 <text x="360.9" y="794.0">8</text>
 <text x="360.9" y="833.0">9</text>
 </g>
-<g style="transform: translateY(-663.0px); animation: roll 2.68s cubic-bezier(.15,.85,.25,1) 0.45s backwards">
+<g style="transform: translateY(-741.0px); animation: roll 2.68s cubic-bezier(.15,.85,.25,1) 0.45s backwards">
 <text x="379.5" y="92.0">0</text>
 <text x="379.5" y="131.0">1</text>
 <text x="379.5" y="170.0">2</text>

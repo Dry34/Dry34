@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260">
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+  .title { font-size: 15px; font-weight: 700; fill: #f2e6da; }
+  .sub { font-size: 11px; fill: #b09a87; }
+  .fade { opacity: 0; animation: fade .6s ease-out forwards; }
+  @keyframes fade { to { opacity: 1; } }
+  .cloud { animation: drift 16s linear infinite; transform: translateX(-80px); }
+  .cloud.slow { animation-duration: 26s; animation-delay: -9s; }
+  @keyframes drift { to { transform: translateX(420px); } }
+  .sun { transform-box: fill-box; transform-origin: center; animation: pulse 4s ease-in-out infinite; }
+  @keyframes pulse { 50% { transform: scale(1.12); } }
+  .slide { opacity: 0; transform: translateX(14px); animation: slide .5s ease-out forwards; }
+  @keyframes slide { to { opacity: 1; transform: translateX(0); } }
+</style>
+<rect x=".5" y=".5" width="799" height="259" rx="12" fill="#17120e" stroke="#3a2c22"/>
+<clipPath id="scene"><rect x="1" y="1" width="384" height="258" rx="12"/></clipPath>
+<mask id="trailMask"><path d="M150 236 C 200 228, 250 214, 246 196 S 196 172, 210 150 S 252 124, 240 104 S 226 82, 230 74" pathLength="1" stroke="#fff" stroke-width="8" fill="none" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0;1" dur="12s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.0250;0.1917;.94;1"/></path></mask>
+<g clip-path="url(#scene)">
+<circle class="sun" cx="318" cy="84" r="18" fill="#f6c453"/>
+<g class="cloud" opacity=".55" fill="#b09a87"><rect x="0" y="64" width="56" height="14" rx="7"/><rect x="14" y="56" width="28" height="14" rx="7"/></g>
+<g class="cloud slow" opacity=".35" fill="#b09a87"><rect x="0" y="104" width="44" height="12" rx="6"/><rect x="10" y="97" width="22" height="12" rx="6"/></g>
+<path d="M0 260 L0 236 L90 150 L130 180 L200 96 L250 150 L300 120 L386 236 L386 260 Z" fill="#b09a87" opacity=".25"/>
+<path d="M0 260 L0 236 L110 170 L160 200 L230 70 L290 160 L330 140 L386 236 L386 260 Z" fill="#d9a679" opacity=".6"/>
+<path d="M230 70 L215.5 97 L223 92 L231 99 L240 92 L248 97 Z" fill="#f2e6da"/>
+</g>
+<path d="M150 236 C 200 228, 250 214, 246 196 S 196 172, 210 150 S 252 124, 240 104 S 226 82, 230 74" mask="url(#trailMask)" stroke="#f2e6da" stroke-width="2.5" stroke-dasharray="5 6" stroke-linecap="round" fill="none"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" dur="12s" repeatCount="indefinite" keyTimes="0;0.5500;0.5700;.94;1"/><line x1="230" y1="72" x2="230" y2="46" stroke="#f2e6da" stroke-width="2"/><path d="M230 46 L250 52 L230 58 Z" fill="#e5533d"/></g>
+<circle r="5" fill="#17120e" stroke="#f2e6da" stroke-width="2.5"><animateMotion path="M150 236 C 200 228, 250 214, 246 196 S 196 172, 210 150 S 252 124, 240 104 S 226 82, 230 74" keyPoints="0;0;1;1;0" dur="12s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.2167;0.5500;.99;1"/><animate attributeName="opacity" values="0;1;1;0;0" dur="12s" repeatCount="indefinite" keyTimes="0;0.0417;.94;.97;1"/></circle>
+<line x1="386" y1="24" x2="386" y2="236" stroke="#3a2c22"/>
+<text x="410" y="56" font-size="24" font-weight="800" fill="#f2e6da" class="fade">PeakRando</text>
+<text x="410" y="78" class="sub fade" style="animation-delay: .2s">Project Lead &amp; Full-Stack Dev · Epitech EIP · 2025 → today</text>
+<g class="slide" style="animation-delay: 0.50s">
+<text x="410" y="112" font-size="13">👥</text>
+<text x="436" y="112" font-size="12" font-weight="700" fill="#b09a87">Team</text>
+<text x="500" y="112" font-size="13" fill="#f2e6da">6 people · agile · I lead it</text>
+</g>
+<g class="slide" style="animation-delay: 0.75s">
+<text x="410" y="136" font-size="13">📱</text>
+<text x="436" y="136" font-size="12" font-weight="700" fill="#b09a87">Mobile</text>
+<text x="500" y="136" font-size="13" fill="#f2e6da">Flutter</text>
+</g>
+<g class="slide" style="animation-delay: 1.00s">
+<text x="410" y="160" font-size="13">🌐</text>
+<text x="436" y="160" font-size="12" font-weight="700" fill="#b09a87">Web</text>
+<text x="500" y="160" font-size="13" fill="#f2e6da">React + Vite</text>
+</g>
+<g class="slide" style="animation-delay: 1.25s">
+<text x="410" y="184" font-size="13">⚙️</text>
+<text x="436" y="184" font-size="12" font-weight="700" fill="#b09a87">Backend</text>
+<text x="500" y="184" font-size="13" fill="#f2e6da">NestJS + PostgreSQL</text>
+</g>
+<g class="slide" style="animation-delay: 1.50s">
+<text x="410" y="208" font-size="13">🤖</text>
+<text x="436" y="208" font-size="12" font-weight="700" fill="#b09a87">AI</text>
+<text x="500" y="208" font-size="13" fill="#f2e6da">Python modules for smarter hikes</text>
+</g>
+<g class="slide" style="animation-delay: 1.75s">
+<text x="410" y="232" font-size="13">🗺️</text>
+<text x="436" y="232" font-size="12" font-weight="700" fill="#b09a87">Partner</text>
+<text x="500" y="232" font-size="13" fill="#f2e6da">French State &amp; IGN official map data</text>
+</g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+  .wave { animation: wave 10s linear infinite; }
+  .wave.back { animation-duration: 16s; animation-direction: reverse; }
+  @keyframes wave { from { transform: translateX(0); } to { transform: translateX(-400px); } }
+  .fade { opacity: 0; animation: fade .8s ease-out forwards; }
+  @keyframes fade { to { opacity: 1; } }
+  .type { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: type 16.0s infinite backwards; }
+  @keyframes type {
+    0% { transform: scaleX(0); animation-timing-function: steps(24); }
+    8.75% { transform: scaleX(1); }
+    17.50% { transform: scaleX(1); animation-timing-function: steps(12); }
+    20.00%, 100% { transform: scaleX(0); }
+  }
+</style>
+<defs><linearGradient id="hg" x1="0" x2="1"><stop offset="0" stop-color="#7a5c45"/><stop offset="1" stop-color="#d9a679"/></linearGradient></defs>
+<path class="wave back" d="M0 0 L0 150 L0 150.0 L20 153.1 L40 155.9 L60 158.1 L80 159.5 L100 160.0 L120 159.5 L140 158.1 L160 155.9 L180 153.1 L200 150.0 L220 146.9 L240 144.1 L260 141.9 L280 140.5 L300 140.0 L320 140.5 L340 141.9 L360 144.1 L380 146.9 L400 150.0 L420 153.1 L440 155.9 L460 158.1 L480 159.5 L500 160.0 L520 159.5 L540 158.1 L560 155.9 L580 153.1 L600 150.0 L620 146.9 L640 144.1 L660 141.9 L680 140.5 L700 140.0 L720 140.5 L740 141.9 L760 144.1 L780 146.9 L800 150.0 L820 153.1 L840 155.9 L860 158.1 L880 159.5 L900 160.0 L920 159.5 L940 158.1 L960 155.9 L980 153.1 L1000 150.0 L1020 146.9 L1040 144.1 L1060 141.9 L1080 140.5 L1100 140.0 L1120 140.5 L1140 141.9 L1160 144.1 L1180 146.9 L1200 150.0 L1220 153.1 L1240 155.9 L1260 158.1 L1280 159.5 L1300 160.0 L1320 159.5 L1340 158.1 L1360 155.9 L1380 153.1 L1400 150.0 L1420 146.9 L1440 144.1 L1460 141.9 L1480 140.5 L1500 140.0 L1520 140.5 L1540 141.9 L1560 144.1 L1580 146.9 L1600 150.0 L1600 0 Z" fill="url(#hg)" opacity=".45"/>
+<path class="wave" d="M0 0 L0 140 L0 140.0 L20 143.7 L40 147.1 L60 149.7 L80 151.4 L100 152.0 L120 151.4 L140 149.7 L160 147.1 L180 143.7 L200 140.0 L220 136.3 L240 132.9 L260 130.3 L280 128.6 L300 128.0 L320 128.6 L340 130.3 L360 132.9 L380 136.3 L400 140.0 L420 143.7 L440 147.1 L460 149.7 L480 151.4 L500 152.0 L520 151.4 L540 149.7 L560 147.1 L580 143.7 L600 140.0 L620 136.3 L640 132.9 L660 130.3 L680 128.6 L700 128.0 L720 128.6 L740 130.3 L760 132.9 L780 136.3 L800 140.0 L820 143.7 L840 147.1 L860 149.7 L880 151.4 L900 152.0 L920 151.4 L940 149.7 L960 147.1 L980 143.7 L1000 140.0 L1020 136.3 L1040 132.9 L1060 130.3 L1080 128.6 L1100 128.0 L1120 128.6 L1140 130.3 L1160 132.9 L1180 136.3 L1200 140.0 L1220 143.7 L1240 147.1 L1260 149.7 L1280 151.4 L1300 152.0 L1320 151.4 L1340 149.7 L1360 147.1 L1380 143.7 L1400 140.0 L1420 136.3 L1440 132.9 L1460 130.3 L1480 128.6 L1500 128.0 L1520 128.6 L1540 130.3 L1560 132.9 L1580 136.3 L1600 140.0 L1600 0 Z" fill="url(#hg)"/>
+<text x="400" y="78" text-anchor="middle" font-size="46" font-weight="800" fill="#fff" class="fade">Thibaut Tavernier</text>
+<text x="400" y="112" text-anchor="middle" font-size="17" fill="#fff" opacity=".9" class="fade" style="animation-delay: .3s">Full-Stack Developer • Web &amp; Mobile</text>
+<clipPath id="tl0"><rect class="type" style="animation-delay: 0.0s" x="306.2" y="176" width="187.6" height="28"/></clipPath>
+<text x="306.2" y="196" class="mono" font-size="18" fill="#b07a4f" clip-path="url(#tl0)">Hey 👋 I'm Thibaut</text>
+<clipPath id="tl1"><rect class="type" style="animation-delay: 3.2s" x="241.4" y="176" width="317.2" height="28"/></clipPath>
+<text x="241.4" y="196" class="mono" font-size="18" fill="#b07a4f" clip-path="url(#tl1)">Full-stack dev @ Tessan Group</text>
+<clipPath id="tl2"><rect class="type" style="animation-delay: 6.4s" x="176.6" y="176" width="446.8" height="28"/></clipPath>
+<text x="176.6" y="196" class="mono" font-size="18" fill="#b07a4f" clip-path="url(#tl2)">Ex teaching assistant @ Epitech Barcelona</text>
+<clipPath id="tl3"><rect class="type" style="animation-delay: 9.6s" x="284.6" y="176" width="230.8" height="28"/></clipPath>
+<text x="284.6" y="196" class="mono" font-size="18" fill="#b07a4f" clip-path="url(#tl3)">Building PeakRando 🏔️</text>
+<clipPath id="tl4"><rect class="type" style="animation-delay: 12.8s" x="149.6" y="176" width="500.8" height="28"/></clipPath>
+<text x="149.6" y="196" class="mono" font-size="18" fill="#b07a4f" clip-path="url(#tl4)">From C to full-stack dev, one commit at a time</text>
+</svg>

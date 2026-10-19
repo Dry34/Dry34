@@ -1,88 +1,61 @@
-### Hey, I'm thibaut :)
-
-<h3> •💻 About Me </h3>
-
-
-
-- 🤔 &nbsp; Exploring new technologies, and developing.
-
-- 🎓 &nbsp; Studying at Epitech Montpellier, currently in first year.
-
-- 🌱 &nbsp; Learning about C, C++ & Python programming language, and algorithms.
-
-- ✍️ &nbsp; Pursuing Developement, I want to try new things to see what interests me the most.
-
-
-
-<h3>🛠 Tech Stack</h3>
-
-
-
-- 💻 &nbsp; C | Python | Java
-
-- 🌐 &nbsp; Vue.js | CSS | HTML | Nuxt3
-
-- 🔧 &nbsp; Git | Markdown
-
-- 🖥 &nbsp; Word | PowerPoint | VsCode
-
-
-<!--
-
-- 🛢 &nbsp; MySQL### Hey, I'm Alan ;)
-
-<img align='right' src="assets/Welcome.png" width="500">
-
-<h3> 👨🏻•💻 About Me </h3>
-
-
-
-- 🤔 &nbsp; Exploring new technologies, and developing.
-
-- 🎓 &nbsp; Studying at Epitech Montpellier, currently in first year.
-
-- 🌱 &nbsp; Learning about Rust programming language, and algorithms.
-
-- ✍️ &nbsp; Pursuing Developement, I want to try new things to see what interests me the most.
-
-
-
-<h3>🛠 Tech Stack</h3>
-
-
-
-- 💻 &nbsp; C | Python
-
-- 🌐 &nbsp; HTML | CSS | Vue.js
-
-<!--
-
-- 🛢 &nbsp; MySQL
-
-- 🔧 &nbsp; Git | Markdown
-
-- 🖥 &nbsp; Word | Excel | PowerPoint | Photoshop
-
--->
-
-
-
-<h3>🛠 To Learn</h3>
-
-- 🔧 &nbsp; C | C++ | Python | Ruby | Rust
-
-<hr>
-
-<h3> 🤝🏻 Contact Me </h3>
-
-<br>
-
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dry34/Dry34/main/assets/header-dark.svg">
+  <img src="https://raw.githubusercontent.com/Dry34/Dry34/main/assets/header-light.svg" alt="Thibaut Tavernier — Full-Stack Developer, Web & Mobile" width="100%">
+</picture>
 
 <p align="center">
-
-<a href="https://www.linkedin.com/in/thibaut-tavernier-b20841260"><img alt="LinkedIn" src="includes/Linkedin.png"></a>
-
-<a href="tavernierthibaut34@gmail.com"><img alt="Email" src="includes/Mail.png"></a>
-
+  <a href="https://www.linkedin.com/in/thibaut-tavernier-b20841260"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:tavernierthibaut34@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/📍_Paris-7a5c45?style=for-the-badge" />
+  <img src="https://komarev.com/ghpvc/?username=Dry34&style=for-the-badge&color=d9a679&label=PROFILE+VIEWS" />
 </p>
+
+---
+
+## 🧑‍💻 About me
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dry34/Dry34/main/assets/about-dark.svg">
+  <img src="https://raw.githubusercontent.com/Dry34/Dry34/main/assets/about-light.svg" alt="About me: Paris, Epitech, full-stack developer intern at Tessan Group, building PeakRando, looking for a full-stack web & mobile internship" width="100%">
+</picture>
+
+---
+
+## 🏔️ PeakRando
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dry34/Dry34/main/assets/peakrando-dark.svg">
+  <img src="https://raw.githubusercontent.com/Dry34/Dry34/main/assets/peakrando-light.svg" alt="PeakRando: hiking app — Flutter, React + Vite, NestJS + PostgreSQL, Python AI, partnership with the French State & IGN" width="100%">
+</picture>
+
+---
+
+## 🇪🇸 My year abroad — Epitech Barcelona
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dry34/Dry34/main/assets/barcelona-dark.svg">
+  <img src="https://raw.githubusercontent.com/Dry34/Dry34/main/assets/barcelona-light.svg" alt="Teaching Assistant at Epitech Barcelona, January to July 2026: mentoring, workshops, defenses, in English" width="100%">
+</picture>
+
+---
+
+## 🛠️ Tech stack
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dry34/Dry34/main/assets/tech-stack-dark.svg">
+  <img src="https://raw.githubusercontent.com/Dry34/Dry34/main/assets/tech-stack-light.svg" alt="TypeScript, JavaScript, Dart, Python, C++, C, Java, React, Vite, Flutter, Vue, Nuxt, NestJS, Node.js, PostgreSQL, Firebase, MongoDB, MySQL, Docker, GitHub Actions, GCP, Kubernetes, Linux" width="100%">
+</picture>
+
+---
+
+## 📊 Stats
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dry34/Dry34/generated/stats-dark.svg">
+  <img src="https://raw.githubusercontent.com/Dry34/Dry34/generated/stats-light.svg" alt="GitHub activity: contributions, lines of code changed, languages" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dry34/Dry34/generated/languages-dark.svg">
+  <img src="https://raw.githubusercontent.com/Dry34/Dry34/generated/languages-light.svg" alt="Most used languages" width="100%">
+</picture>

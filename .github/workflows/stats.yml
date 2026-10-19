@@ -1,0 +1,67 @@
+name: Generate Stats Images
+
+on:
+  schedule:
+    - cron: "5 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash -euo pipefail {0}
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    # Built from source: the parse-error fix (b974865) is not in a release yet
+    - uses: actions/checkout@v4
+      with:
+        repository: jstrieb/github-stats
+        ref: ef574fae2ce8311f3e1ebb43e07c0c0fae0a41b6
+        path: .github-stats-src
+
+    - uses: mlugg/setup-zig@d1434d08867e3ee9daa34448df10607b98908d29  # v2
+      with:
+        version: 0.16.0
+
+    - name: Build jstrieb/github-stats
+      run: |
+        cd .github-stats-src
+        zig build
+        cp zig-out/bin/github-stats /tmp/github-stats
+        cd ..
+        rm -rf .github-stats-src
+
+    # The raw JSON stays in /tmp: it lists private repo names and emails
+    - name: Collect stats
+      run: |
+        cd /tmp
+        /tmp/github-stats --json-output-file /tmp/stats.json
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        EXCLUDE_PRIVATE: "false"
+        SILENT: "true"
+        MAX_RETRIES: 5
+
+    - name: Render cards
+      run: python3 scripts/render_stats.py /tmp/stats.json /tmp/cards
+      env:
+        EXCLUDE_REPOS: ${{ secrets.EXCLUDE_REPOS }}
+        EXCLUDE_LANGS: ${{ secrets.EXCLUDE_LANGS }}
+
+    - name: Commit to the generated branch
+      run: |
+        git config --global user.name "github-stats[bot]"
+        git config --global user.email "github-stats[bot]@users.noreply.github.com"
+        git fetch origin generated || true
+        git checkout generated || git checkout --orphan generated
+        git rm -rf --quiet . || true
+        cp /tmp/cards/*.svg .
+        git add *.svg
+        git commit -m "Update stats cards" || true
+        git push --set-upstream origin generated

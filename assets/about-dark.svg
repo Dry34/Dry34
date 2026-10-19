@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="318" viewBox="0 0 800 318">
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+  .title { font-size: 15px; font-weight: 700; fill: #f2e6da; }
+  .sub { font-size: 11px; fill: #b09a87; }
+  .fade { opacity: 0; animation: fade .6s ease-out forwards; }
+  @keyframes fade { to { opacity: 1; } }
+
+  .type { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: type .7s steps(28) forwards; }
+  @keyframes type { to { transform: scaleX(1); } }
+  .blink { animation: blink 1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+</style>
+<rect x=".5" y=".5" width="799" height="317" rx="12" fill="#17120e" stroke="#3a2c22"/>
+<circle cx="26" cy="22" r="6" fill="#ff5f57"/><circle cx="46" cy="22" r="6" fill="#febc2e"/><circle cx="66" cy="22" r="6" fill="#28c840"/>
+<text x="400.0" y="26" class="sub" text-anchor="middle">about-me.js</text>
+<line x1="0" y1="42" x2="800" y2="42" stroke="#3a2c22"/>
+<text x="44" y="74" class="mono" font-size="12" fill="#3a2c22" text-anchor="end">1</text>
+<clipPath id="tya0"><rect class="type" style="animation-delay: 0.30s" x="60" y="59" width="143.0" height="21"/></clipPath><text x="60" y="74" class="mono" font-size="13" clip-path="url(#tya0)" xml:space="preserve"><tspan fill="#e5533d">const</tspan><tspan fill="#f2e6da"> thibaut </tspan><tspan fill="#b09a87">=</tspan><tspan fill="#f2e6da"> </tspan><tspan fill="#b09a87">{</tspan></text>
+<text x="44" y="96" class="mono" font-size="12" fill="#3a2c22" text-anchor="end">2</text>
+<clipPath id="tya1"><rect class="type" style="animation-delay: 0.60s" x="60" y="81" width="247.8" height="21"/></clipPath><text x="60" y="96" class="mono" font-size="13" clip-path="url(#tya1)" xml:space="preserve"><tspan fill="#f2e6da">  </tspan><tspan fill="#d9a679">location</tspan><tspan fill="#b09a87">:</tspan><tspan fill="#f2e6da">   </tspan><tspan fill="#9ccc9c">&quot;Paris, France&quot;</tspan><tspan fill="#b09a87">,</tspan></text>
+<text x="44" y="118" class="mono" font-size="12" fill="#3a2c22" text-anchor="end">3</text>
+<clipPath id="tya2"><rect class="type" style="animation-delay: 0.90s" x="60" y="103" width="513.8" height="21"/></clipPath><text x="60" y="118" class="mono" font-size="13" clip-path="url(#tya2)" xml:space="preserve"><tspan fill="#f2e6da">  </tspan><tspan fill="#d9a679">school</tspan><tspan fill="#b09a87">:</tspan><tspan fill="#f2e6da">     </tspan><tspan fill="#9ccc9c">&quot;Epitech — Software Engineering Expert (RNCP 7)&quot;</tspan><tspan fill="#b09a87">,</tspan></text>
+<text x="44" y="140" class="mono" font-size="12" fill="#3a2c22" text-anchor="end">4</text>
+<clipPath id="tya3"><rect class="type" style="animation-delay: 1.20s" x="60" y="125" width="481.5" height="21"/></clipPath><text x="60" y="140" class="mono" font-size="13" clip-path="url(#tya3)" xml:space="preserve"><tspan fill="#f2e6da">  </tspan><tspan fill="#d9a679">currently</tspan><tspan fill="#b09a87">:</tspan><tspan fill="#f2e6da">  </tspan><tspan fill="#9ccc9c">&quot;Full-Stack Developer intern @ Tessan Group&quot;</tspan><tspan fill="#b09a87">,</tspan></text>
+<text x="44" y="162" class="mono" font-size="12" fill="#3a2c22" text-anchor="end">5</text>
+<clipPath id="tya4"><rect class="type" style="animation-delay: 1.50s" x="60" y="147" width="473.5" height="21"/></clipPath><text x="60" y="162" class="mono" font-size="13" clip-path="url(#tya4)" xml:space="preserve"><tspan fill="#f2e6da">  </tspan><tspan fill="#d9a679">building</tspan><tspan fill="#b09a87">:</tspan><tspan fill="#f2e6da">   </tspan><tspan fill="#9ccc9c">&quot;PeakRando 🏔️ — hiking app, team lead of 6&quot;</tspan><tspan fill="#b09a87">,</tspan></text>
+<text x="44" y="184" class="mono" font-size="12" fill="#3a2c22" text-anchor="end">6</text>
+<clipPath id="tya5"><rect class="type" style="animation-delay: 1.80s" x="60" y="169" width="723.3" height="21"/></clipPath><text x="60" y="184" class="mono" font-size="13" clip-path="url(#tya5)" xml:space="preserve"><tspan fill="#f2e6da">  </tspan><tspan fill="#d9a679">previously</tspan><tspan fill="#b09a87">:</tspan><tspan fill="#f2e6da"> </tspan><tspan fill="#b09a87">[</tspan><tspan fill="#9ccc9c">&quot;Teaching Assistant @ Epitech Barcelona&quot;</tspan><tspan fill="#b09a87">,</tspan><tspan fill="#f2e6da"> </tspan><tspan fill="#9ccc9c">&quot;Mobile &amp; Web Dev @ Incarline&quot;</tspan><tspan fill="#b09a87">]</tspan><tspan fill="#b09a87">,</tspan></text>
+<text x="44" y="206" class="mono" font-size="12" fill="#3a2c22" text-anchor="end">7</text>
+<clipPath id="tya6"><rect class="type" style="animation-delay: 2.10s" x="60" y="191" width="602.4" height="21"/></clipPath><text x="60" y="206" class="mono" font-size="13" clip-path="url(#tya6)" xml:space="preserve"><tspan fill="#f2e6da">  </tspan><tspan fill="#d9a679">languages</tspan><tspan fill="#b09a87">:</tspan><tspan fill="#f2e6da">  </tspan><tspan fill="#b09a87">{</tspan><tspan fill="#f2e6da"> </tspan><tspan fill="#d9a679">french</tspan><tspan fill="#b09a87">:</tspan><tspan fill="#f2e6da"> </tspan><tspan fill="#9ccc9c">&quot;native&quot;</tspan><tspan fill="#b09a87">,</tspan><tspan fill="#f2e6da"> </tspan><tspan fill="#d9a679">english</tspan><tspan fill="#b09a87">:</tspan><tspan fill="#f2e6da"> </tspan><tspan fill="#9ccc9c">&quot;B2, sharpened in Barcelona&quot;</tspan><tspan fill="#f2e6da"> </tspan><tspan fill="#b09a87">}</tspan><tspan fill="#b09a87">,</tspan></text>
+<text x="44" y="228" class="mono" font-size="12" fill="#3a2c22" text-anchor="end">8</text>
+<clipPath id="tya7"><rect class="type" style="animation-delay: 2.40s" x="60" y="213" width="578.3" height="21"/></clipPath><text x="60" y="228" class="mono" font-size="13" clip-path="url(#tya7)" xml:space="preserve"><tspan fill="#f2e6da">  </tspan><tspan fill="#d9a679">traits</tspan><tspan fill="#b09a87">:</tspan><tspan fill="#f2e6da">     </tspan><tspan fill="#b09a87">[</tspan><tspan fill="#9ccc9c">&quot;autonomous&quot;</tspan><tspan fill="#b09a87">,</tspan><tspan fill="#f2e6da"> </tspan><tspan fill="#9ccc9c">&quot;adaptable&quot;</tspan><tspan fill="#b09a87">,</tspan><tspan fill="#f2e6da"> </tspan><tspan fill="#9ccc9c">&quot;team player&quot;</tspan><tspan fill="#b09a87">,</tspan><tspan fill="#f2e6da"> </tspan><tspan fill="#9ccc9c">&quot;good vibes&quot;</tspan><tspan fill="#b09a87">]</tspan><tspan fill="#b09a87">,</tspan></text>
+<text x="44" y="250" class="mono" font-size="12" fill="#3a2c22" text-anchor="end">9</text>
+<clipPath id="tya8"><rect class="type" style="animation-delay: 2.70s" x="60" y="235" width="449.3" height="21"/></clipPath><text x="60" y="250" class="mono" font-size="13" clip-path="url(#tya8)" xml:space="preserve"><tspan fill="#f2e6da">  </tspan><tspan fill="#d9a679">lookingFor</tspan><tspan fill="#b09a87">:</tspan><tspan fill="#f2e6da"> </tspan><tspan fill="#9ccc9c">&quot;a full-stack web &amp; mobile internship 🚀&quot;</tspan><tspan fill="#b09a87">,</tspan></text>
+<text x="44" y="272" class="mono" font-size="12" fill="#3a2c22" text-anchor="end">10</text>
+<clipPath id="tya9"><rect class="type" style="animation-delay: 3.00s" x="60" y="257" width="22.1" height="21"/></clipPath><text x="60" y="272" class="mono" font-size="13" clip-path="url(#tya9)" xml:space="preserve"><tspan fill="#b09a87">}</tspan><tspan fill="#b09a87">;</tspan></text>
+<text x="44" y="294" class="mono" font-size="12" fill="#3a2c22" text-anchor="end">11</text>
+<text x="60" y="294" class="mono fade" font-size="13" fill="#d9a679" style="animation-delay: 3.30s"><tspan class="blink">▋</tspan></text>
+</svg>

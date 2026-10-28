@@ -19,15 +19,15 @@
 <rect x="24" y="52" width="752" height="10" rx="5" fill="#2a211a"/>
 <clipPath id="barFill"><rect class="fill" x="24" y="52" width="752" height="10" style="animation-delay: .2s"/></clipPath>
 <g clip-path="url(#barClip)"><g clip-path="url(#barFill)">
-<rect x="24.00" y="52" width="282.18" height="10" fill="#3178c6"/>
-<rect x="305.68" y="52" width="179.41" height="10" fill="#f34b7d"/>
-<rect x="484.58" y="52" width="77.34" height="10" fill="#00B4AB"/>
-<rect x="561.43" y="52" width="62.21" height="10" fill="#555555"/>
-<rect x="623.14" y="52" width="61.11" height="10" fill="#f1e05a"/>
-<rect x="683.74" y="52" width="26.19" height="10" fill="#663399"/>
-<rect x="709.43" y="52" width="20.17" height="10" fill="#e34c26"/>
-<rect x="729.10" y="52" width="18.61" height="10" fill="#3572A5"/>
-<rect x="747.22" y="52" width="29.28" height="10" fill="#b09a87"/>
+<rect x="24.00" y="52" width="288.14" height="10" fill="#3178c6"/>
+<rect x="311.64" y="52" width="177.14" height="10" fill="#f34b7d"/>
+<rect x="488.28" y="52" width="76.37" height="10" fill="#00B4AB"/>
+<rect x="564.15" y="52" width="61.43" height="10" fill="#555555"/>
+<rect x="625.07" y="52" width="60.34" height="10" fill="#f1e05a"/>
+<rect x="684.91" y="52" width="25.87" height="10" fill="#663399"/>
+<rect x="710.28" y="52" width="19.92" height="10" fill="#e34c26"/>
+<rect x="729.70" y="52" width="18.38" height="10" fill="#3572A5"/>
+<rect x="747.59" y="52" width="28.91" height="10" fill="#b09a87"/>
 </g></g>
 <g class="fade" style="animation-delay: 0.50s">
 <circle cx="29.0" cy="88" r="5" fill="#3178c6"/>
@@ -57,7 +57,7 @@
 <text x="354.6" y="371.8">8</text>
 <text x="354.6" y="387.4">9</text>
 </g>
-<g style="--y: -265.2px; transform: translateY(var(--y)); animation: roll 12s 0.78s infinite backwards">
+<g style="--y: -280.8px; transform: translateY(var(--y)); animation: roll 12s 0.78s infinite backwards">
 <text x="362.1" y="91.0">0</text>
 <text x="362.1" y="106.6">1</text>
 <text x="362.1" y="122.2">2</text>
@@ -80,7 +80,7 @@
 <text x="362.1" y="387.4">9</text>
 </g>
 <text x="367.4" y="91.0">.</text>
-<g style="--y: -234.0px; transform: translateY(var(--y)); animation: roll 12s 0.94s infinite backwards">
+<g style="--y: -187.2px; transform: translateY(var(--y)); animation: roll 12s 0.94s infinite backwards">
 <text x="372.8" y="91.0">0</text>
 <text x="372.8" y="106.6">1</text>
 <text x="372.8" y="122.2">2</text>
@@ -157,7 +157,7 @@
 <text x="754.1" y="387.4">9</text>
 </g>
 <text x="759.4" y="91.0">.</text>
-<g style="--y: -280.8px; transform: translateY(var(--y)); animation: roll 12s 1.04s infinite backwards">
+<g style="--y: -234.0px; transform: translateY(var(--y)); animation: roll 12s 1.04s infinite backwards">
 <text x="764.8" y="91.0">0</text>
 <text x="764.8" y="106.6">1</text>
 <text x="764.8" y="122.2">2</text>
@@ -182,7 +182,7 @@
 <text x="772.3" y="91.0">%</text>
 </g>
 <rect x="416.0" y="101" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="416.0" y="101" width="228.7" height="4" rx="2" fill="#f34b7d" class="grow" style="animation-delay: 0.80s"/>
+<rect x="416.0" y="101" width="221.1" height="4" rx="2" fill="#f34b7d" class="grow" style="animation-delay: 0.80s"/>
 <g class="fade" style="animation-delay: 0.70s">
 <circle cx="29.0" cy="128" r="5" fill="#00B4AB"/>
 <text x="42.0" y="132" font-size="13" font-weight="600" fill="#f2e6da">Dart</text>
@@ -234,7 +234,7 @@
 <text x="362.1" y="427.4">9</text>
 </g>
 <text x="367.4" y="131.0">.</text>
-<g style="--y: -187.2px; transform: translateY(var(--y)); animation: roll 12s 1.14s infinite backwards">
+<g style="--y: -171.6px; transform: translateY(var(--y)); animation: roll 12s 1.14s infinite backwards">
 <text x="372.8" y="131.0">0</text>
 <text x="372.8" y="146.6">1</text>
 <text x="372.8" y="162.2">2</text>
@@ -259,7 +259,7 @@
 <text x="380.3" y="131.0">%</text>
 </g>
 <rect x="24.0" y="141" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="24.0" y="141" width="98.2" height="4" rx="2" fill="#00B4AB" class="grow" style="animation-delay: 0.90s"/>
+<rect x="24.0" y="141" width="95.0" height="4" rx="2" fill="#00B4AB" class="grow" style="animation-delay: 0.90s"/>
 <g class="fade" style="animation-delay: 0.80s">
 <circle cx="421.0" cy="128" r="5" fill="#555555"/>
 <text x="434.0" y="132" font-size="13" font-weight="600" fill="#f2e6da">C</text>
@@ -289,7 +289,7 @@
 <text x="754.1" y="427.4">9</text>
 </g>
 <text x="759.4" y="131.0">.</text>
-<g style="--y: -187.2px; transform: translateY(var(--y)); animation: roll 12s 1.16s infinite backwards">
+<g style="--y: -171.6px; transform: translateY(var(--y)); animation: roll 12s 1.16s infinite backwards">
 <text x="764.8" y="131.0">0</text>
 <text x="764.8" y="146.6">1</text>
 <text x="764.8" y="162.2">2</text>
@@ -314,7 +314,7 @@
 <text x="772.3" y="131.0">%</text>
 </g>
 <rect x="416.0" y="141" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="416.0" y="141" width="78.9" height="4" rx="2" fill="#555555" class="grow" style="animation-delay: 1.00s"/>
+<rect x="416.0" y="141" width="76.3" height="4" rx="2" fill="#555555" class="grow" style="animation-delay: 1.00s"/>
 <g class="fade" style="animation-delay: 0.90s">
 <circle cx="29.0" cy="168" r="5" fill="#f1e05a"/>
 <text x="42.0" y="172" font-size="13" font-weight="600" fill="#f2e6da">JavaScript</text>
@@ -344,7 +344,7 @@
 <text x="362.1" y="467.4">9</text>
 </g>
 <text x="367.4" y="171.0">.</text>
-<g style="--y: -171.6px; transform: translateY(var(--y)); animation: roll 12s 1.26s infinite backwards">
+<g style="--y: -156.0px; transform: translateY(var(--y)); animation: roll 12s 1.26s infinite backwards">
 <text x="372.8" y="171.0">0</text>
 <text x="372.8" y="186.6">1</text>
 <text x="372.8" y="202.2">2</text>
@@ -369,7 +369,7 @@
 <text x="380.3" y="171.0">%</text>
 </g>
 <rect x="24.0" y="181" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="24.0" y="181" width="77.5" height="4" rx="2" fill="#f1e05a" class="grow" style="animation-delay: 1.10s"/>
+<rect x="24.0" y="181" width="74.9" height="4" rx="2" fill="#f1e05a" class="grow" style="animation-delay: 1.10s"/>
 <g class="fade" style="animation-delay: 1.00s">
 <circle cx="421.0" cy="168" r="5" fill="#663399"/>
 <text x="434.0" y="172" font-size="13" font-weight="600" fill="#f2e6da">CSS</text>
@@ -424,7 +424,7 @@
 <text x="772.3" y="171.0">%</text>
 </g>
 <rect x="416.0" y="181" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="416.0" y="181" width="32.8" height="4" rx="2" fill="#663399" class="grow" style="animation-delay: 1.20s"/>
+<rect x="416.0" y="181" width="31.8" height="4" rx="2" fill="#663399" class="grow" style="animation-delay: 1.20s"/>
 <g class="fade" style="animation-delay: 1.10s">
 <circle cx="29.0" cy="208" r="5" fill="#e34c26"/>
 <text x="42.0" y="212" font-size="13" font-weight="600" fill="#f2e6da">HTML</text>
@@ -479,7 +479,7 @@
 <text x="380.3" y="211.0">%</text>
 </g>
 <rect x="24.0" y="221" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="24.0" y="221" width="25.1" height="4" rx="2" fill="#e34c26" class="grow" style="animation-delay: 1.30s"/>
+<rect x="24.0" y="221" width="24.3" height="4" rx="2" fill="#e34c26" class="grow" style="animation-delay: 1.30s"/>
 <g class="fade" style="animation-delay: 1.20s">
 <circle cx="421.0" cy="208" r="5" fill="#3572A5"/>
 <text x="434.0" y="212" font-size="13" font-weight="600" fill="#f2e6da">Python</text>
@@ -534,7 +534,7 @@
 <text x="772.3" y="211.0">%</text>
 </g>
 <rect x="416.0" y="221" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="416.0" y="221" width="23.2" height="4" rx="2" fill="#3572A5" class="grow" style="animation-delay: 1.40s"/>
+<rect x="416.0" y="221" width="22.4" height="4" rx="2" fill="#3572A5" class="grow" style="animation-delay: 1.40s"/>
 <g class="fade" style="animation-delay: 1.30s">
 <circle cx="29.0" cy="248" r="5" fill="#b09a87"/>
 <text x="42.0" y="252" font-size="13" font-weight="600" fill="#f2e6da">Other</text>
@@ -589,5 +589,5 @@
 <text x="380.3" y="251.0">%</text>
 </g>
 <rect x="24.0" y="261" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="24.0" y="261" width="36.8" height="4" rx="2" fill="#b09a87" class="grow" style="animation-delay: 1.50s"/>
+<rect x="24.0" y="261" width="35.6" height="4" rx="2" fill="#b09a87" class="grow" style="animation-delay: 1.50s"/>
 </svg>

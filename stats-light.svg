@@ -60,7 +60,7 @@
 <text x="144.2" y="794.0">8</text>
 <text x="144.2" y="833.0">9</text>
 </g>
-<g style="--y: -624.0px; transform: translateY(var(--y)); animation: roll 12s 0.44s infinite backwards">
+<g style="--y: -663.0px; transform: translateY(var(--y)); animation: roll 12s 0.44s infinite backwards">
 <text x="162.8" y="92.0">0</text>
 <text x="162.8" y="131.0">1</text>
 <text x="162.8" y="170.0">2</text>
@@ -82,7 +82,7 @@
 <text x="162.8" y="794.0">8</text>
 <text x="162.8" y="833.0">9</text>
 </g>
-<g style="--y: -429.0px; transform: translateY(var(--y)); animation: roll 12s 0.52s infinite backwards">
+<g style="--y: -390.0px; transform: translateY(var(--y)); animation: roll 12s 0.52s infinite backwards">
 <text x="181.4" y="92.0">0</text>
 <text x="181.4" y="131.0">1</text>
 <text x="181.4" y="170.0">2</text>

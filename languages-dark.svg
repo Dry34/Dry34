@@ -19,15 +19,15 @@
 <rect x="24" y="52" width="752" height="10" rx="5" fill="#2a211a"/>
 <clipPath id="barFill"><rect class="fill" x="24" y="52" width="752" height="10" style="animation-delay: .2s"/></clipPath>
 <g clip-path="url(#barClip)"><g clip-path="url(#barFill)">
-<rect x="24.00" y="52" width="256.52" height="10" fill="#3178c6"/>
-<rect x="280.02" y="52" width="150.44" height="10" fill="#f34b7d"/>
-<rect x="429.96" y="52" width="85.80" height="10" fill="#3572A5"/>
-<rect x="515.26" y="52" width="64.90" height="10" fill="#00B4AB"/>
-<rect x="579.66" y="52" width="55.14" height="10" fill="#f1e05a"/>
-<rect x="634.31" y="52" width="52.22" height="10" fill="#555555"/>
-<rect x="686.02" y="52" width="32.68" height="10" fill="#e34c26"/>
-<rect x="718.20" y="52" width="23.70" height="10" fill="#663399"/>
-<rect x="741.41" y="52" width="35.09" height="10" fill="#b09a87"/>
+<rect x="24.00" y="52" width="256.47" height="10" fill="#3178c6"/>
+<rect x="279.97" y="52" width="150.41" height="10" fill="#f34b7d"/>
+<rect x="429.88" y="52" width="85.79" height="10" fill="#3572A5"/>
+<rect x="515.17" y="52" width="64.89" height="10" fill="#00B4AB"/>
+<rect x="579.56" y="52" width="55.13" height="10" fill="#f1e05a"/>
+<rect x="634.20" y="52" width="52.21" height="10" fill="#555555"/>
+<rect x="685.90" y="52" width="32.68" height="10" fill="#e34c26"/>
+<rect x="718.08" y="52" width="23.70" height="10" fill="#663399"/>
+<rect x="741.28" y="52" width="35.22" height="10" fill="#b09a87"/>
 </g></g>
 <g class="fade" style="animation-delay: 0.50s">
 <circle cx="29.0" cy="88" r="5" fill="#3178c6"/>
@@ -589,5 +589,5 @@
 <text x="380.3" y="251.0">%</text>
 </g>
 <rect x="24.0" y="261" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="24.0" y="261" width="48.6" height="4" rx="2" fill="#b09a87" class="grow" style="animation-delay: 1.50s"/>
+<rect x="24.0" y="261" width="48.8" height="4" rx="2" fill="#b09a87" class="grow" style="animation-delay: 1.50s"/>
 </svg>

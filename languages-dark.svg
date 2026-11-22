@@ -19,15 +19,15 @@
 <rect x="24" y="52" width="752" height="10" rx="5" fill="#2a211a"/>
 <clipPath id="barFill"><rect class="fill" x="24" y="52" width="752" height="10" style="animation-delay: .2s"/></clipPath>
 <g clip-path="url(#barClip)"><g clip-path="url(#barFill)">
-<rect x="24.00" y="52" width="262.50" height="10" fill="#3178c6"/>
-<rect x="286.00" y="52" width="138.27" height="10" fill="#3572A5"/>
-<rect x="423.76" y="52" width="126.80" height="10" fill="#f34b7d"/>
-<rect x="550.06" y="52" width="54.75" height="10" fill="#00B4AB"/>
-<rect x="604.31" y="52" width="49.90" height="10" fill="#f1e05a"/>
-<rect x="653.72" y="52" width="44.06" height="10" fill="#555555"/>
-<rect x="697.28" y="52" width="27.99" height="10" fill="#e34c26"/>
-<rect x="724.77" y="52" width="22.40" height="10" fill="#663399"/>
-<rect x="746.67" y="52" width="29.83" height="10" fill="#b09a87"/>
+<rect x="24.00" y="52" width="282.18" height="10" fill="#3178c6"/>
+<rect x="305.68" y="52" width="133.91" height="10" fill="#3572A5"/>
+<rect x="439.09" y="52" width="118.96" height="10" fill="#f34b7d"/>
+<rect x="557.55" y="52" width="51.38" height="10" fill="#00B4AB"/>
+<rect x="608.43" y="52" width="49.55" height="10" fill="#f1e05a"/>
+<rect x="657.48" y="52" width="41.36" height="10" fill="#555555"/>
+<rect x="698.34" y="52" width="26.81" height="10" fill="#e34c26"/>
+<rect x="724.64" y="52" width="24.35" height="10" fill="#663399"/>
+<rect x="748.50" y="52" width="28.00" height="10" fill="#b09a87"/>
 </g></g>
 <g class="fade" style="animation-delay: 0.50s">
 <circle cx="29.0" cy="88" r="5" fill="#3178c6"/>
@@ -57,7 +57,7 @@
 <text x="354.6" y="371.8">8</text>
 <text x="354.6" y="387.4">9</text>
 </g>
-<g style="--y: -218.4px; transform: translateY(var(--y)); animation: roll 12s 0.78s infinite backwards">
+<g style="--y: -265.2px; transform: translateY(var(--y)); animation: roll 12s 0.78s infinite backwards">
 <text x="362.1" y="91.0">0</text>
 <text x="362.1" y="106.6">1</text>
 <text x="362.1" y="122.2">2</text>
@@ -80,7 +80,7 @@
 <text x="362.1" y="387.4">9</text>
 </g>
 <text x="367.4" y="91.0">.</text>
-<g style="--y: -280.8px; transform: translateY(var(--y)); animation: roll 12s 0.94s infinite backwards">
+<g style="--y: -234.0px; transform: translateY(var(--y)); animation: roll 12s 0.94s infinite backwards">
 <text x="372.8" y="91.0">0</text>
 <text x="372.8" y="106.6">1</text>
 <text x="372.8" y="122.2">2</text>
@@ -134,7 +134,7 @@
 <text x="746.6" y="371.8">8</text>
 <text x="746.6" y="387.4">9</text>
 </g>
-<g style="--y: -280.8px; transform: translateY(var(--y)); animation: roll 12s 0.88s infinite backwards">
+<g style="--y: -265.2px; transform: translateY(var(--y)); animation: roll 12s 0.88s infinite backwards">
 <text x="754.1" y="91.0">0</text>
 <text x="754.1" y="106.6">1</text>
 <text x="754.1" y="122.2">2</text>
@@ -157,7 +157,7 @@
 <text x="754.1" y="387.4">9</text>
 </g>
 <text x="759.4" y="91.0">.</text>
-<g style="--y: -202.8px; transform: translateY(var(--y)); animation: roll 12s 1.04s infinite backwards">
+<g style="--y: -265.2px; transform: translateY(var(--y)); animation: roll 12s 1.04s infinite backwards">
 <text x="764.8" y="91.0">0</text>
 <text x="764.8" y="106.6">1</text>
 <text x="764.8" y="122.2">2</text>
@@ -182,7 +182,7 @@
 <text x="772.3" y="91.0">%</text>
 </g>
 <rect x="416.0" y="101" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="416.0" y="101" width="189.3" height="4" rx="2" fill="#3572A5" class="grow" style="animation-delay: 0.80s"/>
+<rect x="416.0" y="101" width="170.5" height="4" rx="2" fill="#3572A5" class="grow" style="animation-delay: 0.80s"/>
 <g class="fade" style="animation-delay: 0.70s">
 <circle cx="29.0" cy="128" r="5" fill="#f34b7d"/>
 <text x="42.0" y="132" font-size="13" font-weight="600" fill="#f2e6da">C++</text>
@@ -211,7 +211,7 @@
 <text x="354.6" y="411.8">8</text>
 <text x="354.6" y="427.4">9</text>
 </g>
-<g style="--y: -249.6px; transform: translateY(var(--y)); animation: roll 12s 0.98s infinite backwards">
+<g style="--y: -234.0px; transform: translateY(var(--y)); animation: roll 12s 0.98s infinite backwards">
 <text x="362.1" y="131.0">0</text>
 <text x="362.1" y="146.6">1</text>
 <text x="362.1" y="162.2">2</text>
@@ -259,14 +259,14 @@
 <text x="380.3" y="131.0">%</text>
 </g>
 <rect x="24.0" y="141" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="24.0" y="141" width="173.5" height="4" rx="2" fill="#f34b7d" class="grow" style="animation-delay: 0.90s"/>
+<rect x="24.0" y="141" width="151.4" height="4" rx="2" fill="#f34b7d" class="grow" style="animation-delay: 0.90s"/>
 <g class="fade" style="animation-delay: 0.80s">
 <circle cx="421.0" cy="128" r="5" fill="#00B4AB"/>
 <text x="434.0" y="132" font-size="13" font-weight="600" fill="#f2e6da">Dart</text>
 </g>
 <clipPath id="odopct3"><rect x="746.3" y="119" width="33.7" height="15.6"/></clipPath>
 <g clip-path="url(#odopct3)" class="mono" font-size="12" font-weight="600" fill="#b09a87" text-anchor="middle">
-<g style="--y: -265.2px; transform: translateY(var(--y)); animation: roll 12s 1.00s infinite backwards">
+<g style="--y: -249.6px; transform: translateY(var(--y)); animation: roll 12s 1.00s infinite backwards">
 <text x="754.1" y="131.0">0</text>
 <text x="754.1" y="146.6">1</text>
 <text x="754.1" y="162.2">2</text>
@@ -289,7 +289,7 @@
 <text x="754.1" y="427.4">9</text>
 </g>
 <text x="759.4" y="131.0">.</text>
-<g style="--y: -187.2px; transform: translateY(var(--y)); animation: roll 12s 1.16s infinite backwards">
+<g style="--y: -280.8px; transform: translateY(var(--y)); animation: roll 12s 1.16s infinite backwards">
 <text x="764.8" y="131.0">0</text>
 <text x="764.8" y="146.6">1</text>
 <text x="764.8" y="162.2">2</text>
@@ -314,7 +314,7 @@
 <text x="772.3" y="131.0">%</text>
 </g>
 <rect x="416.0" y="141" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="416.0" y="141" width="74.5" height="4" rx="2" fill="#00B4AB" class="grow" style="animation-delay: 1.00s"/>
+<rect x="416.0" y="141" width="65.0" height="4" rx="2" fill="#00B4AB" class="grow" style="animation-delay: 1.00s"/>
 <g class="fade" style="animation-delay: 0.90s">
 <circle cx="29.0" cy="168" r="5" fill="#f1e05a"/>
 <text x="42.0" y="172" font-size="13" font-weight="600" fill="#f2e6da">JavaScript</text>
@@ -344,7 +344,7 @@
 <text x="362.1" y="467.4">9</text>
 </g>
 <text x="367.4" y="171.0">.</text>
-<g style="--y: -249.6px; transform: translateY(var(--y)); animation: roll 12s 1.26s infinite backwards">
+<g style="--y: -234.0px; transform: translateY(var(--y)); animation: roll 12s 1.26s infinite backwards">
 <text x="372.8" y="171.0">0</text>
 <text x="372.8" y="186.6">1</text>
 <text x="372.8" y="202.2">2</text>
@@ -369,7 +369,7 @@
 <text x="380.3" y="171.0">%</text>
 </g>
 <rect x="24.0" y="181" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="24.0" y="181" width="67.9" height="4" rx="2" fill="#f1e05a" class="grow" style="animation-delay: 1.10s"/>
+<rect x="24.0" y="181" width="62.7" height="4" rx="2" fill="#f1e05a" class="grow" style="animation-delay: 1.10s"/>
 <g class="fade" style="animation-delay: 1.00s">
 <circle cx="421.0" cy="168" r="5" fill="#555555"/>
 <text x="434.0" y="172" font-size="13" font-weight="600" fill="#f2e6da">C</text>
@@ -399,7 +399,7 @@
 <text x="754.1" y="467.4">9</text>
 </g>
 <text x="759.4" y="171.0">.</text>
-<g style="--y: -280.8px; transform: translateY(var(--y)); animation: roll 12s 1.36s infinite backwards">
+<g style="--y: -218.4px; transform: translateY(var(--y)); animation: roll 12s 1.36s infinite backwards">
 <text x="764.8" y="171.0">0</text>
 <text x="764.8" y="186.6">1</text>
 <text x="764.8" y="202.2">2</text>
@@ -424,7 +424,7 @@
 <text x="772.3" y="171.0">%</text>
 </g>
 <rect x="416.0" y="181" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="416.0" y="181" width="59.9" height="4" rx="2" fill="#555555" class="grow" style="animation-delay: 1.20s"/>
+<rect x="416.0" y="181" width="52.2" height="4" rx="2" fill="#555555" class="grow" style="animation-delay: 1.20s"/>
 <g class="fade" style="animation-delay: 1.10s">
 <circle cx="29.0" cy="208" r="5" fill="#e34c26"/>
 <text x="42.0" y="212" font-size="13" font-weight="600" fill="#f2e6da">HTML</text>
@@ -454,7 +454,7 @@
 <text x="362.1" y="507.4">9</text>
 </g>
 <text x="367.4" y="211.0">.</text>
-<g style="--y: -265.2px; transform: translateY(var(--y)); animation: roll 12s 1.46s infinite backwards">
+<g style="--y: -234.0px; transform: translateY(var(--y)); animation: roll 12s 1.46s infinite backwards">
 <text x="372.8" y="211.0">0</text>
 <text x="372.8" y="226.6">1</text>
 <text x="372.8" y="242.2">2</text>
@@ -479,14 +479,14 @@
 <text x="380.3" y="211.0">%</text>
 </g>
 <rect x="24.0" y="221" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="24.0" y="221" width="37.8" height="4" rx="2" fill="#e34c26" class="grow" style="animation-delay: 1.30s"/>
+<rect x="24.0" y="221" width="33.6" height="4" rx="2" fill="#e34c26" class="grow" style="animation-delay: 1.30s"/>
 <g class="fade" style="animation-delay: 1.20s">
 <circle cx="421.0" cy="208" r="5" fill="#663399"/>
 <text x="434.0" y="212" font-size="13" font-weight="600" fill="#f2e6da">CSS</text>
 </g>
 <clipPath id="odopct7"><rect x="746.3" y="199" width="33.7" height="15.6"/></clipPath>
 <g clip-path="url(#odopct7)" class="mono" font-size="12" font-weight="600" fill="#b09a87" text-anchor="middle">
-<g style="--y: -187.2px; transform: translateY(var(--y)); animation: roll 12s 1.40s infinite backwards">
+<g style="--y: -202.8px; transform: translateY(var(--y)); animation: roll 12s 1.40s infinite backwards">
 <text x="754.1" y="211.0">0</text>
 <text x="754.1" y="226.6">1</text>
 <text x="754.1" y="242.2">2</text>
@@ -509,7 +509,7 @@
 <text x="754.1" y="507.4">9</text>
 </g>
 <text x="759.4" y="211.0">.</text>
-<g style="--y: -296.4px; transform: translateY(var(--y)); animation: roll 12s 1.56s infinite backwards">
+<g style="--y: -187.2px; transform: translateY(var(--y)); animation: roll 12s 1.56s infinite backwards">
 <text x="764.8" y="211.0">0</text>
 <text x="764.8" y="226.6">1</text>
 <text x="764.8" y="242.2">2</text>
@@ -534,7 +534,7 @@
 <text x="772.3" y="211.0">%</text>
 </g>
 <rect x="416.0" y="221" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="416.0" y="221" width="30.1" height="4" rx="2" fill="#663399" class="grow" style="animation-delay: 1.40s"/>
+<rect x="416.0" y="221" width="30.5" height="4" rx="2" fill="#663399" class="grow" style="animation-delay: 1.40s"/>
 <g class="fade" style="animation-delay: 1.30s">
 <circle cx="29.0" cy="248" r="5" fill="#b09a87"/>
 <text x="42.0" y="252" font-size="13" font-weight="600" fill="#f2e6da">Other</text>
@@ -564,7 +564,7 @@
 <text x="362.1" y="547.4">9</text>
 </g>
 <text x="367.4" y="251.0">.</text>
-<g style="--y: -296.4px; transform: translateY(var(--y)); animation: roll 12s 1.66s infinite backwards">
+<g style="--y: -265.2px; transform: translateY(var(--y)); animation: roll 12s 1.66s infinite backwards">
 <text x="372.8" y="251.0">0</text>
 <text x="372.8" y="266.6">1</text>
 <text x="372.8" y="282.2">2</text>
@@ -589,5 +589,5 @@
 <text x="380.3" y="251.0">%</text>
 </g>
 <rect x="24.0" y="261" width="360.0" height="4" rx="2" fill="#2a211a"/>
-<rect x="24.0" y="261" width="40.3" height="4" rx="2" fill="#b09a87" class="grow" style="animation-delay: 1.50s"/>
+<rect x="24.0" y="261" width="35.2" height="4" rx="2" fill="#b09a87" class="grow" style="animation-delay: 1.50s"/>
 </svg>

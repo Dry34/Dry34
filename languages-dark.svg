@@ -19,15 +19,15 @@
 <rect x="24" y="52" width="752" height="10" rx="5" fill="#2a211a"/>
 <clipPath id="barFill"><rect class="fill" x="24" y="52" width="752" height="10" style="animation-delay: .2s"/></clipPath>
 <g clip-path="url(#barClip)"><g clip-path="url(#barFill)">
-<rect x="24.00" y="52" width="282.14" height="10" fill="#3178c6"/>
-<rect x="305.64" y="52" width="133.89" height="10" fill="#3572A5"/>
-<rect x="439.03" y="52" width="118.94" height="10" fill="#f34b7d"/>
-<rect x="557.47" y="52" width="51.37" height="10" fill="#00B4AB"/>
+<rect x="24.00" y="52" width="282.13" height="10" fill="#3178c6"/>
+<rect x="305.63" y="52" width="133.91" height="10" fill="#3572A5"/>
+<rect x="439.04" y="52" width="118.94" height="10" fill="#f34b7d"/>
+<rect x="557.48" y="52" width="51.37" height="10" fill="#00B4AB"/>
 <rect x="608.35" y="52" width="49.54" height="10" fill="#f1e05a"/>
 <rect x="657.39" y="52" width="41.35" height="10" fill="#555555"/>
 <rect x="698.24" y="52" width="26.80" height="10" fill="#e34c26"/>
-<rect x="724.54" y="52" width="24.35" height="10" fill="#663399"/>
-<rect x="748.39" y="52" width="28.11" height="10" fill="#b09a87"/>
+<rect x="724.55" y="52" width="24.35" height="10" fill="#663399"/>
+<rect x="748.40" y="52" width="28.10" height="10" fill="#b09a87"/>
 </g></g>
 <g class="fade" style="animation-delay: 0.50s">
 <circle cx="29.0" cy="88" r="5" fill="#3178c6"/>
@@ -234,7 +234,7 @@
 <text x="362.1" y="427.4">9</text>
 </g>
 <text x="367.4" y="131.0">.</text>
-<g style="--y: -280.8px; transform: translateY(var(--y)); animation: roll 12s 1.14s infinite backwards">
+<g style="--y: -265.2px; transform: translateY(var(--y)); animation: roll 12s 1.14s infinite backwards">
 <text x="372.8" y="131.0">0</text>
 <text x="372.8" y="146.6">1</text>
 <text x="372.8" y="162.2">2</text>
